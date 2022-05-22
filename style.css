@@ -1,0 +1,38 @@
+/*Universal box sizing*/
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0;  
+    padding:0;
+    }
+    
+/*style the links */
+.link {
+    color: white;
+    text-decoration: none;
+    }
+    
+/*style the links on hover*/
+    .link:hover{
+        text-decoration: underline;
+}
+
+
+/* Menu */
+.menu{margin-left: 20%;
+margin-right:20%}
+
+/*Responsive layout - menu */
+@media screen and (max-width:800px) {
+    .menu {
+       margin-left:2.5%;
+       margin-right:2.5%
+    }   
+}
+
+/*Additional style for the privacy page */
+#privacy{
+    text-align: left;
+}
